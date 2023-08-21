@@ -65,24 +65,6 @@ const CustomFilter = ({ title, options }: CustomFilterProps) => {
                       >
                         {option.title}
                       </span>
-                      {selected ? (
-                        <span
-                          className={`${
-                            active
-                              ? "text-primary-blue-100"
-                              : "text-primary-blue-500"
-                          }
-                                absolute inset-y-0 left-0 flex items-center pl-3`}
-                        >
-                          {/* <Image
-                            src="/check.svg"
-                            alt="check"
-                            width={20}
-                            height={20}
-                            className="object-contain"
-                          /> */}
-                        </span>
-                      ) : null}
                     </>
                   )}
                 </Listbox.Option>

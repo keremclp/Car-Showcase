@@ -23,9 +23,8 @@ const CustomButton = ({ title, containerStyles, handleClick, btnType,textStyles,
             />
           </div>
         )}
-
     </button>
   )
 }
 
-export default CustomButton
+export default CustomButton;
